@@ -8,11 +8,11 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'orionjs:core@0.7.0',
+    'orionjs:core@1.4.0',
     'meteor-platform',
     'less',
-    'aldeed:autoform@5.1.1', 
-    'd4nyll:epic@1.2.0',
+    'aldeed:autoform@5.1.1',
+    'd4nyll:epic',
     'jquery@1.0.0'
     ]);
 
